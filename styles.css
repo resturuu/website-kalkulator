@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator {
+    width: 300px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: right;
+}
+.calculator h1{
+    text-align: center;
+}
+#display {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s;
+}
+button.operator {
+    background-color: #ff8c00;
+    color: #fff;
+}
+button.clear {
+    background-color: #ff0000;
+}
+button.equal {
+    background-color: #00cc00;
+}
+button:hover {
+    background-color: #777;
+}
+
+/* Efek cahaya saat tombol di-klik */
+button:active {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
